@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="http://localhost/IDP/metadata" entityID="http://localhost/IDP/metadata">
+   <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDeDCCAmCgAwIBAgIEUJuAVjANBgkqhkiG9w0BAQUFADB+MQswCQYDVQQGEwJCRTEXMBUGA1UE
+CBMOVmxhYW1zIEJyYWJhbnQxETAPBgNVBAcTCEJSVVNTRUxTMRMwEQYDVQQKEwpHb3Zlcm5tZW50
+MRMwEQYDVQQLEwpHb3Zlcm5tZW50MRkwFwYDVQQDExBJZGVudGl0eSBQcm92ZGVyMB4XDTEyMTEw
+ODA5NTAxNFoXDTEzMTEwMzA5NTAxNFowfjELMAkGA1UEBhMCQkUxFzAVBgNVBAgTDlZsYWFtcyBC
+cmFiYW50MREwDwYDVQQHEwhCUlVTU0VMUzETMBEGA1UEChMKR292ZXJubWVudDETMBEGA1UECxMK
+R292ZXJubWVudDEZMBcGA1UEAxMQSWRlbnRpdHkgUHJvdmRlcjCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAL45GybrFFy9VqDI94w1IyZOX2JYDdlst4WC5WSUJDBkPC36ovQc8H23uhgN
+7hV6w0umN5HLFtGionkSIRON6cPf5y7P3i9c96LPSF2i7otix2IlR/3gMAK6SujRBu2PZkyOV2/l
+XQULGcppc58UmwiAFUeS7yMtBZfFviQAAmMqQWCGFp963lWBaGBYgKYQUtGzInHNaxGwUx/SlLfm
+4oN73cpmdd4yZz02Aa+W2qSqeRa+q5ThU15Gcq9L8vikJDLGH0JEznMIFAH1bvdl3foDpxXNFpg/
+IACOVK9jeRgiJ37XoQDP2K+aQXW0U/osxDjIdU/9GKcTgGQrhzMhB9cCAwEAATANBgkqhkiG9w0B
+AQUFAAOCAQEATyEFS8wmkKFaUEHREd/HvsgnEB6nD317sH1MiBX3PO9/as/BzsV7YbbYBFM91etp
+zT+EEMIleC1g0IufIVa4cyZuyf3p/Ro3ad2Kf6X0emxfxRg4aJlWvwNFOq1NqVpsSMECiP6abAyA
+Ke0X5nOE62EhU5RXIENxIMuxf+PcTNFpbNcJ6ouK2guZHZs4H8sbfU9ZvPBw+oSCx0m6k9plSBok
+EYAI5ZEGRWc5n77Qxc3eBnaRosIEgOdgm/CvyDQXCyWdZ+G0qPDg+L/U+287Rf+6btBOETgrknAa
+oJRB/xnSRzKY7iAHHYWH6EBBWT6rgIBB86mucAVEfXY5ZJjb/w==</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDeDCCAmCgAwIBAgIEUJuAVjANBgkqhkiG9w0BAQUFADB+MQswCQYDVQQGEwJCRTEXMBUGA1UE
+CBMOVmxhYW1zIEJyYWJhbnQxETAPBgNVBAcTCEJSVVNTRUxTMRMwEQYDVQQKEwpHb3Zlcm5tZW50
+MRMwEQYDVQQLEwpHb3Zlcm5tZW50MRkwFwYDVQQDExBJZGVudGl0eSBQcm92ZGVyMB4XDTEyMTEw
+ODA5NTAxNFoXDTEzMTEwMzA5NTAxNFowfjELMAkGA1UEBhMCQkUxFzAVBgNVBAgTDlZsYWFtcyBC
+cmFiYW50MREwDwYDVQQHEwhCUlVTU0VMUzETMBEGA1UEChMKR292ZXJubWVudDETMBEGA1UECxMK
+R292ZXJubWVudDEZMBcGA1UEAxMQSWRlbnRpdHkgUHJvdmRlcjCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAL45GybrFFy9VqDI94w1IyZOX2JYDdlst4WC5WSUJDBkPC36ovQc8H23uhgN
+7hV6w0umN5HLFtGionkSIRON6cPf5y7P3i9c96LPSF2i7otix2IlR/3gMAK6SujRBu2PZkyOV2/l
+XQULGcppc58UmwiAFUeS7yMtBZfFviQAAmMqQWCGFp963lWBaGBYgKYQUtGzInHNaxGwUx/SlLfm
+4oN73cpmdd4yZz02Aa+W2qSqeRa+q5ThU15Gcq9L8vikJDLGH0JEznMIFAH1bvdl3foDpxXNFpg/
+IACOVK9jeRgiJ37XoQDP2K+aQXW0U/osxDjIdU/9GKcTgGQrhzMhB9cCAwEAATANBgkqhkiG9w0B
+AQUFAAOCAQEATyEFS8wmkKFaUEHREd/HvsgnEB6nD317sH1MiBX3PO9/as/BzsV7YbbYBFM91etp
+zT+EEMIleC1g0IufIVa4cyZuyf3p/Ro3ad2Kf6X0emxfxRg4aJlWvwNFOq1NqVpsSMECiP6abAyA
+Ke0X5nOE62EhU5RXIENxIMuxf+PcTNFpbNcJ6ouK2guZHZs4H8sbfU9ZvPBw+oSCx0m6k9plSBok
+EYAI5ZEGRWc5n77Qxc3eBnaRosIEgOdgm/CvyDQXCyWdZ+G0qPDg+L/U+287Rf+6btBOETgrknAa
+oJRB/xnSRzKY7iAHHYWH6EBBWT6rgIBB86mucAVEfXY5ZJjb/w==</ds:X509Certificate>
+            </ds:X509Data>
+            <xenc:AgreementMethod xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://acc.newkbi.be/IDP/sso"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://acc.newkbi.be/IDP/sso"/>
+   </md:IDPSSODescriptor>
+</md:EntityDescriptor>
